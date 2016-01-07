@@ -9,24 +9,35 @@
   </head>
 
   <body>
+    <!--NavBar-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+
+        <a class="navbar-brand text-muted">Visit Oregon</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+<!--End Nav bar Begin container -->
     <div class="container">
-
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Accomodations</a></li>
-          <li><a href="#">Destinations</a></li>
-          <li><a href="#">Gallery</a></li>
-        </ul>
-        <h3>Visit Oregon</h3>
-      </header>
-
         <div class="jumbotron">
           <h1>Oregon</h1>
           <p>Come look at all nature your state doesn't have. Seriously. You'll love it so much you'll move here, but don't... just visit.</p>
           <p class="btn-group">
             <a class="btn btn-info btn-lg" href="#">Button1</a>
-            <a class="btn btn-default btn-lg" href="#">Button2</a>
+            <a class="btn btn-info btn-lg" href="#">Button2</a>
           </p>
         </div>
 <!--1st Row -->
@@ -53,20 +64,31 @@
           <div class="col-sm-6 hidden-xs">
             <h2>Something Cool</h2>
             <p>Bacon ipsum dolor amet fatback meatball pork belly, short ribs jowl drumstick turkey ham pork loin filet mignon doner. Filet mignon pork shankle, bresaola meatloaf kevin rump sausage. Frankfurter tenderloin ham short ribs hamburger rump corned beef pastrami bacon short.</p>
-          </div>
 
+<!-- Row within a row-->
+            <div class="row">
+              <div class="col-sm-6">
+                <h4>Visit Oregon for only $20k!!!</h4>
+                <a href="#">BUY NOW &raquo;</a>
+              </div>
+
+              <div class="col-sm-6">
+                <img src="img/bike.png" class="img-responsive">
+              </div>
+            </div>
+          </div>
+<!--Part of the 2nd Row-->
           <div class="col-sm-6">
             <h2>Something Awesome</h2>
             <p>Bacon ipsum dolor amet fatback meatball pork belly, short ribs jowl drumstick turkey ham pork loin filet mignon doner. Filet mignon pork shankle, bresaola meatloaf kevin rump sausage. Frankfurter tenderloin ham short ribs hamburger rump corned beef pastrami bacon short.</p>
           </div>
         </div>
-
-
-
+        <hr>
 
     </div>
 
 
-
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
