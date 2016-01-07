@@ -14,3 +14,11 @@ padding-top: 70px
 .jumbotron h1, .jumbotron p {
   color: #fff
 }
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  color: #3a87a4;
+
+}
