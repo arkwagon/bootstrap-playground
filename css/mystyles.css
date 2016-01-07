@@ -4,7 +4,6 @@ padding-top: 70px
 }
 
 .jumbotron {
-  position: relative;
   background-image: url(../img/oregonsunset1.jpg);
   height: 100%;
   background-size: cover;
